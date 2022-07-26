@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sevilla</title>
+  
+  
+  <!--
+  - cookies 
+  -->
+  
+ 
+  
+
+  
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.PNG" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">Über uns</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Speisekarte</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/menu.svg" alt="shopping cart icon" width="28">
+
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Unser Spezielitäten</h4>
+
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%201%20fertig.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/queso.PNG" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Kalte Tapas</h5>
+              <p class="product-price">
+                <span class="small"></span>🧀
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%202%20fertig%20.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu2.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Tapas Variationen</h5>
+              <p class="product-price">
+                <span class="small"></span>🥗
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%203%20Ensaladas%20y%20Papas%20fertig.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Salate und Kartoffelgerichte</h5>
+              <p class="product-price">
+                <span class="small"></span>🥔
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%204%20fertig%20Fleischgerichte.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Fleischgerichte</h5>
+              <p class="product-price">
+                <span class="small"></span>🥩
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%205%20fertig%20Fisch.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu1.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+  
+              <h5 class="product-name">Fischgerichte1</h5>
+              <p class="product-price">
+                <span class="small"></span>🍤
+              </p>
+            </a>
+          </li>
+          
+                    <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%206%20fertig%20Fisch%202.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/calamares.PNG" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+  
+              <h5 class="product-name">Fischgerichte2</h5>
+              <p class="product-price">
+                <span class="small"></span>🍥
+              </p>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%207%20montaditos%20und%20Kinder.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/signature1.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Brötchen</h5>
+              <p class="product-price">
+                <span class="small"></span>🥖
+              </p>
+            </a>
+          </li>
+          
+                    <li>
+            <a href="assets/pdf/Speisekarte%20Sonia&Sergio%20Seite%208%20montaditos%20und%20Kinder%202.pdf" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Kindergerichte</h5>
+              <p class="product-price">
+                <span class="small"></span>🍝
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+
+          <a href="tel:+491735918145">
+          <button class="btn btn-primary">📞 Anrufen</button>
+          </a>
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+
+
+          <h1 class="main-heading">Tapas Bar Sevilla</h1>
+          
+                    <div class="btn-group">
+
+           <a href="https://www.google.com/maps/place/Tapas+Bar+%E2%80%9ESevilla%E2%80%9C/@51.7104046,8.3337331,15z/data=!4m5!3m4!1s0x0:0xb5ba5f09013886aa!8m2!3d51.7104046!4d8.3337331">
+          
+           <button class="btn btn-secondary btn-icon">
+              <img src="./assets/images/arrow.svg" alt="menu icon">
+              Klusestraße 1, 59556 Lippstadt (Bad Waldliesborn)
+            </button>
+            </a>
+
+          </div>
+
+          <p class="home-text">
+            Reservieren Sie Ihren Tisch<br>☎️ 02941 - 923 2897 <br>📞 0173 - 59 18 145 
+          </p>
+
+
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/barraCompleta2.jpg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg"></p>
+              <p class="text-md">Sevilla</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">Tapas essen gehen!</h2>
+         
+           <p class="section-text">
+            Diese kleinen Portionen sind so berühmt geworden, dass das Wort «Tapa» sicher eins der ersten sein wird, das Spanien-Reisende lernen werden.
+          </p>
+          
+            <p class="section-text">
+            Aber was genau ist eigentlich dieses «Tapas essen»? Tapas sind eine Art Appetithäppchen und werden normalerweise mit Bier, Wein oder Apfelwein gereicht. Es gibt sie kalt, heiss, auf Röstbrot oder in Tontöpfen serviert.
+          </p>
+          
+            <p class="section-text">
+            Ursprünglich waren sie gedacht, um den Appetit vor dem eigentlichen Essen anzuregen oder als kleine Zwischenmahlzeit am späten Nachmittag, aber wenn man viele verschiedene Tapas isst, können sie eine Hauptmahlzeit oder das Abendessen ersetzen.
+          </p>
+
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES SECTION
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">Spanisches Lebensgefühl</h3>
+
+          <p class="card-text">
+            Bienvenido in den Räumen der „Bar Tapas“. Lassen Sie sich von unserem Personal in die Welt der Tapas entführen. Erste in Bad Wadliesborn - Lippstadt
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Echter Geschmack</h3>
+
+          <p class="card-text">
+            Familien Tradition mit besten Geschmack. Heute empfehlen wir eine Reise durch die Spanische Küche. Wir bereisen Spanien anhand der typischen Speisen. 
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Ihr Event </h3>
+
+          <p class="card-text">
+            Feiern Sie ihr Event mit uns für ein glänzendes Event. Von unvergesslichen Abendessen, über Firmenevents und Team Buildings, Geburtstagen  bis hin zu jeder Art von Event, die Sie sich nur vorstellen können.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Mediterranes Rezepte </h3>
+
+          <p class="card-text">
+           Probieren Sie das leckere mediterrane gesunden Rezepte. Lassen Sie spanische  Spezialitäten genießen.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">Cocktail Bar </h3>
+
+          <p class="card-text">
+            Traditionelle spanische Getränke. Die besten Getränke Spaniens mit und ohne Alkohol.
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Unsere Spezialitäten</h2>
+
+        <p class="section-text">
+          Genießen Sie die Auswahl unserer kulinarischen Speisen. Mehr Auswahl finden Sie in unserer Speisekarte.
+        </p>
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/calamares.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Fischgerichte</h3>
+
+                  <p class="product-price">
+                    <span class="small">ab €</span>7
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Garnelen in Knoblauchöl, Riesengarnelen von der Grillplatte, Miesmuscheln in würziger Tomaten-Sauce, frittierte Sardellen in Mehlpanad, frittierte Calamares, mit Mehl-Panad.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/tapilla.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Kalte Tapas</h3>
+
+                  <p class="product-price">
+                    <span class="small">ab €</span>3
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Brot mit Alioli Knoblauch Mayonnaise, Meeresfrüchte Salat, spanischer Kartoffelsalat, Oliven..
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/bravas.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Patatas Bravas</h3>
+
+                  <p class="product-price">
+                    <span class="small">ab €</span>6
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  frittierte Kartoffelecken mit Sauce, gekochte Kartoffeln mit pikanter Sauce.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/albondigas.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Hot</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Fleischgerichte</h3>
+
+                  <p class="product-price">
+                    <span class="small">ab €</span>4
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Albondigas, Schweineroulade mit Käse, Schweineroulade m Käse, Schinken- und Hähnchen Kroketten.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/queso.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Original</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Tapas Variationen</h3>
+
+                  <p class="product-price">
+                    <span class="small">€</span>6
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Käse Variationen, Iberische Salami, Iberische Paprikasalami .
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/jamon.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Serrano Schiken </h3>
+
+                  <p class="product-price">
+                    <span class="small">ab €</span>12
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  spanisch jamón serrano, ist ein luftgetrockneter spanischer Schinken.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <button class="btn btn-primary btn-icon">
+         
+          <img src="./assets/images/menu.svg" alt="menu icon">  
+           📅 Reservieren  📞+49 173 591 8145
+           <br>Mo-Fr 17-22 | Sa. 16-24 | So. 16-21
+        </button>
+
+  
+     
+      </section>
+
+
+
+
+      
+      
+      <!--
+        - #PRUEBA LOCATION BAR
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Unsere Tapas Bar</h2>
+
+        <p class="section-text">
+          Genießen Sie die typisch spanische Atmosphäre und lassen Sie sich für einen Abend verzaubern. Seien Sie für einen Abend unser Gast und genießen Sie das Ambiente.
+        </p>
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/barraCompleta2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Barbereich</h3>
+
+                  <p class="product-price">
+                    <span class="small"></span>1
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Liebe Gäste, bitte beachten Sie die Auswahl ihres Sitzbereiches während Ihrer Reservierung
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/barraCompleta.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+              
+                              <div class="card-badge green">
+                  <ion-icon name="sunny"></ion-icon>
+                  <p>Flamenco</p>
+                </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Theke und Hochtischen</h3>
+
+                  <p class="product-price">
+                    <span class="small">2</span>2
+                  </p>
+                </div>
+
+                <p class="product-text">
+                 Bitte haben Sie Verständnis, dass es uns oftmals nicht möglich ist Ihnen einen Tisch im Restaurantbereich
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/about-image.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Restaurantbereich und Terrasse</h3>
+
+                  <p class="product-price">
+                    <span class="small"></span>3
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Bitte beachten sie auch das Zeitlimit bei Buchungen, welches im Restaurantbereich gilt
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          
+        </div>
+       <a href="tel:+491735918145"> 
+        <button class="btn btn-primary btn-icon">
+         
+          <img src="./assets/images/menu.svg" alt="menu icon">  
+           📅 Reservieren  📞+49 173 591 8145
+        <br>Mo-Fr 17-22 | Sa. 16-24 | So. 16-21</button>
+       </a>
+
+      </section>
+
+
+
+ <!--
+        - #Fin Prueba1
+      -->
+      
+     
+      
+
+      <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+      <section class="testimonials" id="testimonials">
+
+        <h2 class="section-title">Was unsere Kunden sagen?</h2>
+
+        <p class="section-text">
+          Egal ob Sie Ihren Geburtstag oder eine Betriebsfeier planen, wir freuen uns Sie bei uns begrüßen zu dürfen. Wir helfen Ihnen bei der Auswahl unserer Speisen.
+        </p>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonials-card">
+
+            <h4 class="card-title">Sehr, sehr lecker!</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+              Einzigartigen Atmosphäre und freundlichen Service-Team. Angebot an kalten und warmen Tapas, sowie den wochenlich wechselnden Tapas, dazu ein Gläschen Weine und wir fühlen uns wie im Urlaub.
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Michaela Schulte</h5>
+            </div>
+
+          </div>
+
+          <div class="testimonials-card">
+          
+            <h4 class="card-title">Ich habe Tapas fast jedes Wochenende gegessen</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              Wir waren schon sehr oft hier und sind immer wieder begeistert. Eindeutig die besten Tapas in Marbella. Nettes Ambiente und toller Service.
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Michael Ring</h5>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+<!--
+  - #MAP
+  -->
+
+     
+    
+     
+
+<!--
+  - #MAP2
+  -->
+
+
+<div class="map-responsive">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2472.2393695050055!2d8.331459915605038!3d51.710363103664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bbd32480448739%3A0xdd98422130375b00!2sKlusestra%C3%9Fe%201%2C%2059556%20Lippstadt%2C%20Alemania!5e0!3m2!1ses!2ses!4v1658657439563!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/flag1.png" alt="logo" class="footer-brand" width="130">
+        </a>
+
+       
+        <div class="social-link">
+
+          <a href="https://www.facebook.com/Tapas-bar-sevilla-espa%C3%B1ol-101221742568442">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+        </div>
+
+        <p class="copyright">&copy; Tapas Bar Sevilla. Klusestraße 1, 59556 Lippstadt.  <br>Mo.-Fr. 17:00- 22:00 Uhr
+        <br> Sa.    16:00- 24:00 Uhr
+        <br> So.    16:00- 21:00 Uhr
+           
+                <ul> 
+                 <li><a href="/imprint.html">Impressum </a> |
+                 <a href="/datenschutz.html">Datenschutz Erklärung</a></li>
+
+ 		</ul>
+            </p>
+            
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/foodhub.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
